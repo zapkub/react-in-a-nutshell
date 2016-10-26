@@ -52,6 +52,9 @@ This repository is all about beginning to use React.
 - or maybe MobX ?
 
 ### Conclusion
+- So... Do we need React?
+- when to use React
+
 ### Ecosystem overview
 - Client side routing
 - Hot module
