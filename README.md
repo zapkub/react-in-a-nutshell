@@ -1,8 +1,9 @@
 # react-in-a-nutshell
 This repository is all about beginning to use React.
 
-## Agenda
+# Agenda
 
+## Introduction
 ### Brief history of Front-end development
 - Javascript ES2015
 - DOM is everywhere
