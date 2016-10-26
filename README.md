@@ -10,7 +10,7 @@ This repository is all about beginning to use React.
 
 ### Web Component and Rise of React
 - Short bief Web Component
-- What is React and An epic community driven
+- What is React Ep.1 and An epic community driven
 - Made with React
 - Prerequisite for using React
 
@@ -18,7 +18,7 @@ This repository is all about beginning to use React.
 - No more jQuery 
 - MVC is obsoleted ( Component based Architecture ) 
 - Separate  template not considered ( JSX )
-- What is React ?
+- What is React Ep.2 ?
 - World of state and event
 - Virtual DOM
 
@@ -52,6 +52,7 @@ This repository is all about beginning to use React.
 - or maybe MobX ?
 
 ### Conclusion
+- What is React Ep.3
 - So... Do we need React?
 - when to use React
 
