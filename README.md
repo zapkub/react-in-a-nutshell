@@ -18,10 +18,11 @@ This repository is all about beginning to use React.
 ### Thinking in React
 - No more jQuery 
 - MVC is obsoleted ( Component based Architecture ) 
+- Virtual DOM
 - Separate  template not considered ( JSX )
 - What is React Ep.2 ?
 - World of state and event
-- Virtual DOM
+
 
 ## Experiment	
 ### Basic React component
