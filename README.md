@@ -1,5 +1,5 @@
 # react-in-a-nutshell
-This repository is all about beginning to use React.
+This repository is all about beginning to use React and drive in to State/Render pattern instead of MVC
 
 28/10/2016 - 16:00 
 
