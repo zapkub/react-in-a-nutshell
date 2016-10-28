@@ -1,0 +1,36 @@
+{
+    "name": "react-in-a-nutshell",
+    "version": "1.0.0",
+    "description": "This repository is all about beginning to use React.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node devServer.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zapkub/react-in-a-nutshell.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zapkub/react-in-a-nutshell/issues"
+    },
+    "homepage": "https://github.com/zapkub/react-in-a-nutshell#readme",
+    "dependencies": {
+        "glamor": "^2.17.12",
+        "react": "^15.3.2",
+        "react-dom": "^15.3.2"
+    },
+    "devDependencies": {
+        "@types/react": "^0.14.37",
+        "@types/react-dom": "^0.14.17",
+        "awesome-typescript-loader": "^2.2.4",
+        "html-webpack-plugin": "^2.24.0",
+        "react-hot-loader": "^3.0.0-beta.5",
+        "source-map-loader": "^0.1.5",
+        "typescript": "^2.0.3",
+        "webpack": "^1.13.2",
+        "webpack-dev-server": "^1.16.1"
+    }
+}

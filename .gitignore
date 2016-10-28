@@ -1,0 +1,9 @@
+##### Frontend #####
+/Design/
+/node_modules/
+/typings/globals/
+/typings/modules/
+/dist/
+/tmp/
+
+.vscode
