@@ -6,7 +6,7 @@ This repository is all about beginning to use React and drive in to State/Render
 # Agenda
 
 ## Introduction
-### Brief history of Front-end development in speed of light
+### Brief history of Front-end development with speed of light
 - Javascript ES2015
 - DOM is everywhere
 - Legacy way communication and Asynchronous call
