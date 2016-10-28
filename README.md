@@ -1,6 +1,8 @@
 # react-in-a-nutshell
 This repository is all about beginning to use React.
 
+28/10/2016 - 16:00 
+
 # Agenda
 
 ## Introduction
