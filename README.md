@@ -3,6 +3,12 @@ This repository is all about beginning to use React and drive in to State/Render
 
 28/10/2016 - 16:00 
 
+### start project
+```
+$ npm install
+$ npm start
+```
+
 # Agenda
 
 ## Introduction
