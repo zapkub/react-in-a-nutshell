@@ -47,6 +47,9 @@ This repository is all about beginning to use React and drive in to State/Render
 - React with ES6 overview
 - Create simple React component with ES6
 
+### WE ARE GOING TO TYPESCRIPT !!
+- Reat with Typescript Overview
+
 ## Extra
 - Flux Architecture
 - Singleton stores
