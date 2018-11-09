@@ -4,9 +4,10 @@ The bief history of React since officially public.
 
 ### Prerequisite
 - NodeJS 9.11.2
-- Handful IDE which can type text
-- Brain
-- Init project with create React app [Here](https://github.com/facebook/create-react-app)
+- Operation system อะไรก็ได้ที่มี bash และใช้ / ที่ directory path 
+- IDE อะไรก็ได้ที่พิมพ์ตัวหนังสือได้
+- Brain 🧠
+
 
 # Agenda
 
@@ -60,3 +61,5 @@ The bief history of React since officially public.
 ### More and beyond
 - Typescript
 - GraphQL
+
+project with create React app [Here](https://github.com/facebook/create-react-app)
