@@ -1,13 +1,12 @@
-# react-in-a-nutshell
-This repository is all about beginning to use React and drive in to State/Render pattern instead of MVC
+# 3 Years of React in 2 days
 
-28/10/2016 - 16:00 
+The bief history of React since officially public.
 
-### start project
-```
-$ npm install
-$ npm start
-```
+### Prerequisite
+- NodeJS 9.11.2
+- Handful IDE which can type text
+- Brain
+- Init project with create React app [Here](https://github.com/facebook/create-react-app)
 
 # Agenda
 
@@ -17,24 +16,14 @@ $ npm start
 - DOM is everywhere
 - Legacy way communication and Asynchronous call
 
-### Web Component and Rise of React
-- Short bief Web Component
-- What is React Ep.1 and An epic community driven
-- Made with React
-- Prerequisite for using React
-
-### Thinking in React
-- No more jQuery 
-- MVC is obsoleted ( Component based Architecture ) 
+### Thinking in React vs jQuery
+- DOM selector vs React tree
 - Virtual DOM
-- Separate  template not considered ( JSX )
-- What is React Ep.2 ?
-- World of state and event
+- HTML template not considered vs JSX
 
 
-## Experiment	
+## Getting start	
 ### Basic React component
-- Setup simple dev environment
 - Mounting first component ( react-dom )
 - State and Props concept
 - Nested Component
@@ -42,38 +31,32 @@ $ npm start
 - PropsType, Default props, Default state
 - Iterated component
 - React DOM attribute, property
-- Node selector
 
-### Todo app
-- Event handling
-- How to access value in DOM
-- Talk to remote server ( NodeJS )
+### Design Pattern with React
+- High order component
+- Flux
+- Context
+- Function as Child Component
+- Observer
 
-### ES6 Class vs createClass
-- React with ES6 overview
-- Create simple React component with ES6
-
-### WE ARE GOING TO TYPESCRIPT !!
-- Reat with Typescript Overview
-
-## Extra
-- Flux Architecture
-- Singleton stores
-- Hello Redux
-- Action, Reducer, State
-- Containers and Components
-- or maybe MobX ?
-
-### Conclusion
-- What is React Ep.3
-- So... Do we need React?
-- when to use React
-
-### Ecosystem overview
-- Client side routing
-- Hot module
-- Transition, animation
+### Deep dive
+- Provider and Consumer
+- Fragment
+- Portal
+- Hooks ( pre release )
 - Server side rendering
-- Universal application architecture
-- React Native
-- React with Typescript
+
+### Awesome library
+- MobX
+- Bootstrap
+- NextJS
+- Styled components
+
+### Implementation and adopt React to legacy project
+- to Restful API
+- to jQuery project
+- to Angular project
+
+### More and beyond
+- Typescript
+- GraphQL
