@@ -2,6 +2,11 @@
 
 The bief history of React since officially public.
 
+> in S(upid)B(ut)W(orks) style
+
+## ถามผ่านไอ้นี่กันได้
+Discord: https://discord.gg/zTT7Xat
+
 ### Prerequisite
 - NodeJS 9.11.2
 - Operation system อะไรก็ได้ที่มี bash และใช้ / ที่ directory path 
@@ -11,34 +16,29 @@ The bief history of React since officially public.
 
 # Agenda
 
-## Introduction
+## Boring part
 ### Brief history of Front-end development with speed of light
-- Javascript ES2015
-- DOM is everywhere
-- Legacy way communication and Asynchronous call
+- Javascript ES2016 แล้ว
+- DOM คือทุกสิ่งอย่างของการทำ Front end
 
-### Thinking in React vs jQuery
+### คิดแบบ React vs jQuery
 - DOM selector vs React tree
-- Virtual DOM
+- State ของ UI
 - HTML template not considered vs JSX
 
 
-## Getting start	
-### Basic React component
+### Basic React essentials
 - Mounting first component ( react-dom )
-- State and Props concept
-- Nested Component
-- Component life cycle
-- PropsType, Default props, Default state
-- Iterated component
-- React DOM attribute, property
+- JSX
+- Props and State
+- Component API
+- Component Types
 
 ### Design Pattern with React
-- High order component
+- Higher order component (nearly deprecated)
 - Flux
-- Context
-- Function as Child Component
-- Observer
+- Context (เกือบ deprecated แต่กลับมาอีกรอบ)
+- Function as Child Component ( อันใหม่และต้องใช้ )
 
 ### Deep dive
 - Provider and Consumer
@@ -47,16 +47,19 @@ The bief history of React since officially public.
 - Hooks ( pre release )
 - Server side rendering
 
-### Awesome library
-- MobX
-- Bootstrap
-- NextJS
-- Styled components
+## Fun part
+### Real life or just fantasy
+- Singleton store MobX / Redux / Hooks
+- Styling Bootstrap, SASS
+- Create React App, NextJS
 
-### Implementation and adopt React to legacy project
-- to Restful API
+### Implementation and adopt React to legacy project (Adoptation)
 - to jQuery project
 - to Angular project
+
+
+### LAB LAB LAB
+- create SBW ticket reservation application ระบบจองตั๋วแบบง่ายและโง่
 
 ### More and beyond
 - Typescript

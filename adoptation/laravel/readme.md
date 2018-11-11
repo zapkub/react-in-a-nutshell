@@ -1,0 +1,1 @@
+# Laravel with NextJS
