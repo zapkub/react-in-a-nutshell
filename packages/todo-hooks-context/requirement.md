@@ -1,1 +1,0 @@
-# SBW Ticket reservation application

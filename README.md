@@ -35,12 +35,12 @@ Discord: https://discord.gg/zTT7Xat
 - Component Types
 
 ### Design Pattern with React 
-- Higher order component (nearly deprecated)
-- Flux
-- Context (เกือบ deprecated แต่กลับมาอีกรอบ)
-- Function as Child Component ( อันใหม่และต้องใช้ )
+- Higher order component (nearly deprecated) 🐸
+- Flux 🐸
+- Context (เกือบ deprecated แต่กลับมาอีกรอบ) 🦄
+- Function as Child Component ( อันใหม่และต้องใช้ ) 🦄
 
-### Deep dive
+### Deep dive 🦄 , 🐸
 - Provider and Consumer
 - Fragment
 - Portal
