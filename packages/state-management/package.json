@@ -1,0 +1,21 @@
+{
+  "name": "state-management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "yarn babel . --out-dir ./build --ignore build,node_modules,components/common,__test__",
+    "watch": "yarn build --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "dependencies": {
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0"
+  }
+}
