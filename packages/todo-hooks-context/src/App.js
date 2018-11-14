@@ -1,28 +1,90 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "todomvc-common/base.css";
+import "todomvc-app-css/index.css";
+import { useTodoList } from "./store";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+const TodoItem = ({ title, completed, onChecked, onRemove }) => (
+  <>
+    <input
+      className="toggle"
+      onChange={onChecked}
+      checked={completed}
+      type="checkbox"
+    />
+    <label>{title}</label>
+    <button onClick={onRemove} className="destroy" />
+  </>
+);
 
-export default App;
+const TodoListFilter = ({ active, filter, onClick }) => (
+  <a href="/#" className={active ? "selected" : ""} onClick={onClick}>
+    {filter}
+  </a>
+);
+
+export default () => {
+  const {
+    todos,
+    textInput,
+    onInputChange,
+    onSubmitTodo,
+    onCheckTodo,
+    onRemoveTodo,
+    onSetFilter,
+    filter,
+    filterList,
+    onClearCompletedTodo
+  } = useTodoList();
+
+  const handleInputEnterPress = e => {
+    if (e.key === "Enter") {
+      onSubmitTodo();
+    }
+  };
+
+  return (
+    <div className="App todoapp">
+      <header className="header">
+        <h1>todos</h1>
+        <input
+          onKeyPress={handleInputEnterPress}
+          className="new-todo"
+          placeholder="What needs to be done?"
+          autoFocus
+          value={textInput}
+          onChange={onInputChange}
+        />
+      </header>
+      <section className="main">
+        <ul className="todo-list">
+          {todos.map((todo, i) => (
+            <li key={i}>
+              <TodoItem
+                {...todo}
+                onRemove={onRemoveTodo(i)}
+                onChecked={onCheckTodo(i)}
+              />
+            </li>
+          ))}
+        </ul>
+      </section>
+      <footer className="footer">
+        <span className="todo-count" />
+        <ul className="filters">
+          {filterList.map(filterName => (
+            <li key={filterName}>
+              <TodoListFilter
+                active={filter === filterName}
+                filter={filterName}
+                onClick={onSetFilter(filterName)}
+              />
+            </li>
+          ))}
+        </ul>
+        <button className="clear-completed" onClick={onClearCompletedTodo}>
+          Clear completed
+        </button>
+      </footer>
+    </div>
+  );
+};
