@@ -14,3 +14,7 @@ start-playground:
 
 start-todo:
 	cd ./packages/todo-hooks-context && yarn start
+
+
+build-todo:
+	cd ./packages/todo-hooks-context && yarn build
