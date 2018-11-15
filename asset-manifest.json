@@ -1,15 +1,15 @@
 {
-  "main.css": "/todos-react-hooks/static/css/main.92048d74.chunk.css",
-  "main.js": "/todos-react-hooks/static/js/main.9cdcca8c.chunk.js",
-  "main.js.map": "/todos-react-hooks/static/js/main.9cdcca8c.chunk.js.map",
-  "static/css/1.54bdfa7d.chunk.css": "/todos-react-hooks/static/css/1.54bdfa7d.chunk.css",
-  "static/js/1.60566f14.chunk.js": "/todos-react-hooks/static/js/1.60566f14.chunk.js",
-  "static/js/1.60566f14.chunk.js.map": "/todos-react-hooks/static/js/1.60566f14.chunk.js.map",
-  "runtime~main.js": "/todos-react-hooks/static/js/runtime~main.29a3d402.js",
-  "runtime~main.js.map": "/todos-react-hooks/static/js/runtime~main.29a3d402.js.map",
-  "static/css/1.54bdfa7d.chunk.css.map": "/todos-react-hooks/static/css/1.54bdfa7d.chunk.css.map",
-  "static/css/main.92048d74.chunk.css.map": "/todos-react-hooks/static/css/main.92048d74.chunk.css.map",
-  "index.html": "/todos-react-hooks/index.html",
-  "precache-manifest.82850eb975ec39df7233f3756338bf46.js": "/todos-react-hooks/precache-manifest.82850eb975ec39df7233f3756338bf46.js",
-  "service-worker.js": "/todos-react-hooks/service-worker.js"
+  "main.css": "/todos-react/static/css/main.92048d74.chunk.css",
+  "main.js": "/todos-react/static/js/main.6bcd86f1.chunk.js",
+  "main.js.map": "/todos-react/static/js/main.6bcd86f1.chunk.js.map",
+  "static/css/1.54bdfa7d.chunk.css": "/todos-react/static/css/1.54bdfa7d.chunk.css",
+  "static/js/1.60566f14.chunk.js": "/todos-react/static/js/1.60566f14.chunk.js",
+  "static/js/1.60566f14.chunk.js.map": "/todos-react/static/js/1.60566f14.chunk.js.map",
+  "runtime~main.js": "/todos-react/static/js/runtime~main.44731641.js",
+  "runtime~main.js.map": "/todos-react/static/js/runtime~main.44731641.js.map",
+  "static/css/1.54bdfa7d.chunk.css.map": "/todos-react/static/css/1.54bdfa7d.chunk.css.map",
+  "static/css/main.92048d74.chunk.css.map": "/todos-react/static/css/main.92048d74.chunk.css.map",
+  "index.html": "/todos-react/index.html",
+  "precache-manifest.1ff0e119a46cbd01a15780b72ce53605.js": "/todos-react/precache-manifest.1ff0e119a46cbd01a15780b72ce53605.js",
+  "service-worker.js": "/todos-react/service-worker.js"
 }
