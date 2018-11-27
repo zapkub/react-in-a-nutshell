@@ -58,8 +58,8 @@ Discord: https://discord.gg/zTT7Xat
 - Create React App, NextJS
 
 ### Implementation and adopt React to legacy project (Adoptation)
-- to jQuery project
-- to Angular project
+- from jQuery project
+- from Angular project
 
 
 ### LAB LAB LAB
