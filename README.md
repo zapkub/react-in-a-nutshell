@@ -20,6 +20,7 @@ Discord: https://discord.gg/zTT7Xat
 - Props and State ( Introducing Hooks API )
 - Component API
 - Component Types
+- Form 📄( input, select, radio, checkedbox )
 
 ### Experimental
 - Basic setup with Create React App
