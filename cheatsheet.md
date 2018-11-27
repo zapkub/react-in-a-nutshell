@@ -1,4 +1,17 @@
 
+# Table Of Content
+- [Form Handler](#)
+  - [Select and options](#select-and-options)
+  - [Button](#button)
+
+- [Children property](#children)
+- [Fragment Component](#fragment-component)
+- [Basic Styling](#basic-styling)
+- [Inner HTML](#inner-html)
+- [Element Focus and Blur](#element-focus--blur)
+- [Default Props](#default-props)
+- [Javascript in JSX](#javascript-in-jsx)
+
 
 ### Select and Options
 การใช้ `<select>`, `<options>` เพื่อทำ Dropdown list
@@ -218,7 +231,7 @@ function App(props) {
 }
 ```
 
-## JSX Javascript embeded
+## Javascript in JSX 
 
 การเรียกคำสั่ง Javascript ภายใน JSX tag
 
