@@ -4,9 +4,6 @@ The bief history of React since officially public.
 
 > in S(upid)B(ut)W(orks) style
 
-## ถามผ่านไอ้นี่กันได้
-Discord: https://discord.gg/zTT7Xat
-
 ### Prerequisite
 - NodeJS 9.11.2
 - Operation system อะไรก็ได้ที่มี bash และใช้ / ที่ directory path 
