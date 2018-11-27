@@ -26,7 +26,7 @@ Discord: https://discord.gg/zTT7Xat
 - Basic setup with Create React App
 
 
-# Agenda 
+# DEEEEP dive Agenda 
 > (Full course will be extended every topic from intensive)
 
 ## Boring part
