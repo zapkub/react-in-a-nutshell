@@ -3,9 +3,46 @@
 ### Select and Options
 การใช้ `<select>`, `<options>` เพื่อทำ Dropdown list
 
-**[Live Demo]()**
+**[Live Demo](https://codesandbox.io/s/rj0v506pyn)**
 
 ```jsx
+const MeatOptions = ["Chicken", "Beef", "Pork"];
+const BreadOptions = ["Galic", "Pamesan", "Italian"];
+
+function App() {
+  const [meatValue, setMeatValue] = React.useState(MeatOptions[0]);
+  const [breadValue, setBreadValue] = React.useState(BreadOptions[0]);
+  return (
+    <div className="App">
+      <select value={meatValue} onChange={e => setMeatValue(e.target.value)}>
+        {MeatOptions.map(item => (
+          <option key={item} value={item}>
+            {item}
+          </option>
+        ))}
+      </select>
+      <br />
+      <select value={breadValue} onChange={e => setBreadValue(e.target.value)}>
+        {BreadOptions.map(item => (
+          <option key={item} value={item}>
+            {item}
+          </option>
+        ))}
+      </select>
+      <br />
+      <h4>{"Delicious sandwich"}</h4>
+      <code
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            { meat: meatValue, bread: breadValue },
+            null,
+            " "
+          )
+        }}
+      />
+    </div>
+  );
+}
 ```
 
 ### Button
