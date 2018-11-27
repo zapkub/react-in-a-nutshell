@@ -1,15 +1,15 @@
 {
-  "main.css": "./static/css/main.0a4db940.chunk.css",
-  "main.js": "./static/js/main.4b4cde1e.chunk.js",
-  "main.js.map": "./static/js/main.4b4cde1e.chunk.js.map",
-  "static/css/1.d60c4cf2.chunk.css": "./static/css/1.d60c4cf2.chunk.css",
-  "static/js/1.0f461250.chunk.js": "./static/js/1.0f461250.chunk.js",
-  "static/js/1.0f461250.chunk.js.map": "./static/js/1.0f461250.chunk.js.map",
-  "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
-  "runtime~main.js.map": "./static/js/runtime~main.4a686d48.js.map",
-  "static/css/1.d60c4cf2.chunk.css.map": "./static/css/1.d60c4cf2.chunk.css.map",
-  "static/css/main.0a4db940.chunk.css.map": "./static/css/main.0a4db940.chunk.css.map",
-  "index.html": "./index.html",
-  "precache-manifest.2e0bcac840b70c57ead373075a4f518d.js": "./precache-manifest.2e0bcac840b70c57ead373075a4f518d.js",
-  "service-worker.js": "./service-worker.js"
+  "main.css": "/react-in-a-nutshell/static/css/main.0a4db940.chunk.css",
+  "main.js": "/react-in-a-nutshell/static/js/main.742b8e52.chunk.js",
+  "main.js.map": "/react-in-a-nutshell/static/js/main.742b8e52.chunk.js.map",
+  "static/css/1.d60c4cf2.chunk.css": "/react-in-a-nutshell/static/css/1.d60c4cf2.chunk.css",
+  "static/js/1.0f461250.chunk.js": "/react-in-a-nutshell/static/js/1.0f461250.chunk.js",
+  "static/js/1.0f461250.chunk.js.map": "/react-in-a-nutshell/static/js/1.0f461250.chunk.js.map",
+  "runtime~main.js": "/react-in-a-nutshell/static/js/runtime~main.6e260ade.js",
+  "runtime~main.js.map": "/react-in-a-nutshell/static/js/runtime~main.6e260ade.js.map",
+  "static/css/1.d60c4cf2.chunk.css.map": "/react-in-a-nutshell/static/css/1.d60c4cf2.chunk.css.map",
+  "static/css/main.0a4db940.chunk.css.map": "/react-in-a-nutshell/static/css/main.0a4db940.chunk.css.map",
+  "index.html": "/react-in-a-nutshell/index.html",
+  "precache-manifest.f49e56cc0c37d0bc7d533955b9d9b274.js": "/react-in-a-nutshell/precache-manifest.f49e56cc0c37d0bc7d533955b9d9b274.js",
+  "service-worker.js": "/react-in-a-nutshell/service-worker.js"
 }
