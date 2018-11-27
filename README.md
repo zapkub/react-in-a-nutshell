@@ -13,8 +13,21 @@ Discord: https://discord.gg/zTT7Xat
 - IDE อะไรก็ได้ที่พิมพ์ตัวหนังสือได้
 - Brain 🧠
 
+# Intensive React Agenda
+### Basic React essentials 🐸
+- Mounting first component ( react-dom )
+- JSX
+- Props and State ( Introducing Hooks API )
+- Component API
+- Component Types
+- Form 📄( input, select, radio, checkedbox )
 
-# Agenda
+### Experimental
+- Basic setup with Create React App
+
+
+# DEEEEP dive Agenda 
+> (Full course will be extended every topic from intensive)
 
 ## Boring part
 ### Brief history of Front-end development with speed of light 🦄
@@ -26,14 +39,6 @@ Discord: https://discord.gg/zTT7Xat
 - State ของ UI
 - HTML template not considered vs JSX
 
-
-### Basic React essentials 🐸
-- Mounting first component ( react-dom )
-- JSX
-- Props and State
-- Component API
-- Component Types
-
 ### Design Pattern with React 
 - Higher order component (nearly deprecated) 🐸
 - Flux 🐸
@@ -44,7 +49,7 @@ Discord: https://discord.gg/zTT7Xat
 - Provider and Consumer
 - Fragment
 - Portal
-- Hooks ( pre release )
+- Hooks and Custom Hooks ( pre release )
 - Server side rendering
 
 ## Fun part
@@ -54,8 +59,8 @@ Discord: https://discord.gg/zTT7Xat
 - Create React App, NextJS
 
 ### Implementation and adopt React to legacy project (Adoptation)
-- to jQuery project
-- to Angular project
+- from jQuery project
+- from Angular project
 
 
 ### LAB LAB LAB
