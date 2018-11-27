@@ -6,7 +6,7 @@
 
 การกำหนดค่า Default ให้กับ Component Properties
 
-[Live Demo](https://codesandbox.io/s/9z33pyx6ry)
+**[Live Demo](https://codesandbox.io/s/9z33pyx6ry)**
 
 ```jsx
 const Echo = props => {
@@ -30,7 +30,7 @@ function App(props) {
 
 การเรียกคำสั่ง Javascript ภายใน JSX tag
 
-[Live Demo](https://codesandbox.io/s/52ry62kzpk)
+**[Live Demo](https://codesandbox.io/s/52ry62kzpk)**
 
 ```jsx
 function SayHi() {
