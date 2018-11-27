@@ -25,7 +25,8 @@ Discord: https://discord.gg/zTT7Xat
 - Basic setup with Create React App
 
 
-# Agenda (Full course will be extended every topic from intensive)
+# Agenda 
+> (Full course will be extended every topic from intensive)
 
 ## Boring part
 ### Brief history of Front-end development with speed of light 🦄
