@@ -1,7 +1,7 @@
 {
   "name": "todo-hooks-context",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://zapkub.github.io/react-in-a-nutshell",
   "private": true,
   "dependencies": {
     "localforage": "^1.7.3",
