@@ -13,10 +13,9 @@ The bief history of React since officially public.
 # Intensive React Agenda
 ### Basic React essentials 🐸
 - Mounting first component ( react-dom )
+- Component API and Component Types
 - JSX
 - Props and State ( Introducing Hooks API )
-- Component API
-- Component Types
 - Form 📄( input, select, radio, checkedbox )
 
 ### Experimental
