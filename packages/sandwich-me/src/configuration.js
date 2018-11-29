@@ -1,11 +1,10 @@
+export const menuOptions = [
+  "Black Forest Ham",
+  "Chicken & Bacon Ranch Melt",
+  "Italian B.M.T."
+];
 
-const menuOptions = [
-  'Black Forest Ham',
-  'Chicken & Bacon Ranch Melt',
-  'Italian B.M.T.'
-]
-
-const breadOptions = [
+export const breadOptions = [
   "Parmesan Oregano",
   "Italian",
   "9-Grain Wheat,",
@@ -14,7 +13,7 @@ const breadOptions = [
   "9-Grain Honey Oat"
 ];
 
-const veggieOptions = [
+export const veggieOptions = [
   "Cucumbers",
   "Green Peppers",
   "Lettuce",
@@ -31,7 +30,7 @@ const veggieOptions = [
   "Sweet Peppers"
 ];
 
-const saucesOptions = [
+export const saucesOptions = [
   "Chipotle Southwest",
   "Light or Regular Mayonnaise",
   "Ranch",

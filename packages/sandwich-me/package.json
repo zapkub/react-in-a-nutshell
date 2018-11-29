@@ -6,6 +6,7 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "joi": "^14.3.0",
+    "node-fetch": "^2.3.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
@@ -14,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "yarn babel-node server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -24,5 +26,11 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "jest": "^23.6.0"
+  }
 }
