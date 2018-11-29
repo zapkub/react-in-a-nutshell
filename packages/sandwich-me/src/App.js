@@ -1,25 +1,33 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 class App extends Component {
+
+  async submit() {
+    const result = await fetch('http://localhost:3001/order', {
+      headers: {
+        "Content-Type": "application/json"
+      },
+      method: "POST",
+      body: JSON.stringify({ bread: "" })
+    })
+    alert(JSON.stringify(result, null, ""))
+    
+    // clear state
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <h1 style={{ marginTop: "30px" }}>Subway Order 🐸🦄</h1>
+        <Form style={{ margin: "0 15%" }}>
+          <FormGroup row>
+            <Label for="Input">Input</Label>
+            <Input type="text" placeholder="with a placeholder" />
+          </FormGroup>
+          <Button color="primary" onClick={this.submit}>submit</Button>
+        </Form>
       </div>
     );
   }
