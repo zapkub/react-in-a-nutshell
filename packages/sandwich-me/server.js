@@ -23,11 +23,11 @@ const orderSchema = Joi.object()
       configuration.breadOptions[0]
     ),
     veggies: Joi.array()
-      .valid(configuration.veggieOptions)
+      .items(Joi.valid(configuration.veggieOptions))
       .default([]),
     sauces: Joi.array()
+      .items(Joi.valid(configuration.saucesOptions))
       .max(2)
-      .valid(configuration.saucesOptions)
       .default([])
   })
   .required();
