@@ -6,5 +6,8 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "express-rate-limit": "^3.3.2"
+  }
 }
