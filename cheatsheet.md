@@ -1,4 +1,5 @@
 # Table Of Content
+
 - [ประกาศ Function Component](#ประกาศ-function-component)
 - [Passing Props Component](#passing-props-component)
 - [Lists Component](#lists-component)
@@ -16,9 +17,11 @@
 - [Javascript in JSX](#javascript-in-jsx)
 
 ## ประกาศ Function Component
+
 การประกาศ Component ใน react
 
 [Live Demo](https://codesandbox.io/s/mq61nryp69)
+
 ```jsx
 function App() {
   return <div className="App" />;
@@ -26,98 +29,136 @@ function App() {
 ```
 
 ## Passing Props Component
+
 การส่งตัวแปรออกมาจาก component
 
 [Live Demo](https://codesandbox.io/s/yvv15z7rp9)
 
 ```jsx
 function App(props) {
-  return (
-    <button onClick={props.clickHello}>{"Click Hello"}</button>
-  )
+  return <button onClick={props.clickHello}>{"Click Hello"}</button>;
 }
 
-<App clickHello={() => { alert("Hello!!!") }}/>
+<App
+  clickHello={() => {
+    alert("Hello!!!");
+  }}
+/>;
 ```
 
 การส่งค่าเข้าไปใน Component และรับค่าจากข้างนอก
 [Live Demo](https://codesandbox.io/s/5x7r527lp4)
+
 ```jsx
 function App(props) {
-  return <div>{props.msg}</div>
+  return <div>{props.msg}</div>;
 }
-<App msg={"Hello!!!"}/>
+<App msg={"Hello!!!"} />;
 ```
 
 ## Lists Component
+
 สร้าง Component จาก Array loop
 
 [Live Demo](https://codesandbox.io/s/345m38z716)
+
 ```jsx
 function BNK() {
-  return <div>{
-    ["Noey 💚", "Jane", "Mewnich", "Cherprang"].map((item, index) => {
-      return <div key={index}>{item}</div>
-    })
-  }
-  </div>
+  return (
+    <div>
+      {["Noey 💚", "Jane", "Mewnich", "Cherprang"].map((item, index) => {
+        return <div key={index}>{item}</div>;
+      })}
+    </div>
+  );
 }
-<BNK />
+<BNK />;
 ```
 
 ## Conditional JSX
+
 การเพิ่มเงื่อนไขให้ React ด้วย JSX
 [Live Demo](https://codesandbox.io/s/24qz842x6y)
+
 ```jsx
 function Template(props) {
-  return <div>{props.isShow ? <div>{"React in my life!!!"}</div> : null}</div>
+  return <div>{props.isShow ? <div>{"React in my life!!!"}</div> : null}</div>;
 }
-<Template isShow={true}/>
+<Template isShow={true} />;
 ```
 
 ## Form Handler
-### Form Input
-[Live Demo](https://codesandbox.io/s/o1vr1k6v05)
-```jsx
 
+### Form Input
+
+[Live Demo](https://codesandbox.io/s/o1vr1k6v05)
+
+```jsx
 function InputForm(props) {
   const [value, setValue] = useState("Hello!!!");
-  const [check, setCheck] = useState(false)
-  const [radio, setRadio] = useState('1')
-  return (<div>
-    <input type={"text"} value={value} onKeyPress={(e) => {
-      setValue(console.log(e))
-    }}/>
-    <br /><br />
+  const [check, setCheck] = useState(false);
+  const [radio, setRadio] = useState("1");
+  return (
+    <div>
+      <input
+        type={"text"}
+        value={value}
+        onKeyPress={e => {
+          setValue(console.log(e));
+        }}
+      />
+      <br />
+      <br />
 
-    <input type={"checkbox"} onClick={() => {
-      setCheck(!check)
-    }}/>
-    <label>{check + ""}</label>
-    <br /><br />
+      <input
+        type={"checkbox"}
+        onClick={() => {
+          setCheck(!check);
+        }}
+      />
+      <label>{check + ""}</label>
+      <br />
+      <br />
 
-    <label>{`Now radio: ${radio}`}</label>
-    <br />
-    <input type={"radio"} checked={radio === '1'} onChange={(e) => {
-      setRadio(e.target.value)
-    }} value={1}/>
-    <label>{1}</label>
-    <br />
-    <input type={"radio"} checked={radio === '2'} onChange={(e) => {
-      setRadio(e.target.value)
-    }} value={2}/>
-    <label>{2}</label>
-    <br />
-    <input type={"radio"} checked={radio === '3'} onChange={(e) => {
-      setRadio(e.target.value)
-    }} value={3}/>
-    <label>{3}</label>
-  </div>)
+      <label>{`Now radio: ${radio}`}</label>
+      <br />
+      <input
+        type={"radio"}
+        checked={radio === "1"}
+        onChange={e => {
+          setRadio(e.target.value);
+        }}
+        value={1}
+      />
+      <label>{1}</label>
+      <br />
+      <input
+        type={"radio"}
+        checked={radio === "2"}
+        onChange={e => {
+          setRadio(e.target.value);
+        }}
+        value={2}
+      />
+      <label>{2}</label>
+      <br />
+      <input
+        type={"radio"}
+        checked={radio === "3"}
+        onChange={e => {
+          setRadio(e.target.value);
+        }}
+        value={3}
+      />
+      <label>{3}</label>
+    </div>
+  );
 }
-<InputForm/>
+<InputForm />;
 ```
 
 ### Select and Options
+
 การใช้ `<select>`, `<options>` เพื่อทำ Dropdown list
 
 **[Live Demo](https://codesandbox.io/s/rj0v506pyn)**
@@ -163,37 +204,42 @@ function App() {
 ```
 
 ### Button
+
 การ Handle HTMLButton event
 
 **[Live Demo](https://codesandbox.io/s/wkv2n1r6lk)**
 
 ```jsx
 function useCountState() {
-  const [value, setValue] = React.useState(0)
+  const [value, setValue] = React.useState(0);
   return [
     value,
     () => {
-      setValue(value + 1)
+      setValue(value + 1);
     }
-  ]
+  ];
 }
 
 function App() {
-  const [onClickValue, onClickIncrement] = useCountState()
-  const [onEnterValue, onEnterIncrement] = useCountState()
+  const [onClickValue, onClickIncrement] = useCountState();
+  const [onEnterValue, onEnterIncrement] = useCountState();
   return (
     <div className="App">
-      <h1>{onClickValue}<sup dangerouslySetInnerHTML={{ __html: "click" }} /></h1>
-      <h1>{onEnterValue}<sup dangerouslySetInnerHTML={{ __html: "enter" }} /></h1>
-      <button
-        onMouseEnter={onEnterIncrement}
-        onClick={onClickIncrement}>{"Increment !"}</button>
+      <h1>
+        {onClickValue}
+        <sup dangerouslySetInnerHTML={{ __html: "click" }} />
+      </h1>
+      <h1>
+        {onEnterValue}
+        <sup dangerouslySetInnerHTML={{ __html: "enter" }} />
+      </h1>
+      <button onMouseEnter={onEnterIncrement} onClick={onClickIncrement}>
+        {"Increment !"}
+      </button>
     </div>
   );
 }
 ```
-
-
 
 ## Children
 
@@ -335,7 +381,7 @@ function App(props) {
 }
 ```
 
-## Javascript in JSX 
+## Javascript in JSX
 
 การเรียกคำสั่ง Javascript ภายใน JSX tag
 
@@ -351,4 +397,4 @@ function App() {
 }
 ```
 
-## 
+##
