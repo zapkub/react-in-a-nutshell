@@ -5,7 +5,10 @@ import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 class App extends Component {
 
   async submit() {
-    const result = await fetch('http://localhost:3000', {
+    const result = await fetch('http://localhost:3001/order', {
+      headers: {
+        "Content-Type": "application/json"
+      },
       method: "POST",
       body: JSON.stringify({ bread: "" })
     })
