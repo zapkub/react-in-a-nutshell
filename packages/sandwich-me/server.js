@@ -1,5 +1,6 @@
 const app = require("express")();
-
+const cors = require('cors')
+app.use(cors())
 const Joi = require("joi");
 
 const configuration = require("./src/configuration");
@@ -26,6 +27,7 @@ const orders = [];
 app.post("/order", (req, res) => {
   console.log(req.body)
   const result = Joi.validate(req.body, orderSchema);
+  console.log(result)
   if (result.error === null) {
     orders.push(req.body);
     res.json({
