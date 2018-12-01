@@ -2,6 +2,7 @@
 
 The bief history of React since officially public.
 https://docs.google.com/spreadsheets/d/1jo8SZYKsHfB_Ck2eyw0oaF79vicXEU0gJS_Dkg71EEI/edit#gid=0
+https://discordapp.com/channels/511243930558529550/511243931103657995
 
 > in S(upid)B(ut)W(orks) style
 
